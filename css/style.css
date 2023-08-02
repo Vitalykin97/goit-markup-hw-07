@@ -1131,3 +1131,7 @@ img {
     gap: 40px;
     padding-bottom: 48px;
 }
+
+.mob-menu{
+    display: none;
+}

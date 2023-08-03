@@ -1138,7 +1138,7 @@ img {
 
 /* Adaptive for mobile */
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .container {
         width: 100%;
     }

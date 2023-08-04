@@ -1164,4 +1164,15 @@ img {
     .button-subscribe-text {
         text-align: center;
     }
+
+    .futer-client{
+        
+    }
+
+    .nav-list{
+        display: none;
+    }
+    .address-style{
+        display: none;
+    }
 }

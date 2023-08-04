@@ -414,6 +414,7 @@ ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    padding: 24px 0;
 }
 
 .logo-hedaer {
@@ -1163,10 +1164,6 @@ img {
     }
     .button-subscribe-text {
         text-align: center;
-    }
-
-    .futer-client{
-        
     }
 
     .nav-list{

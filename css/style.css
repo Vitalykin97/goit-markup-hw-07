@@ -889,7 +889,7 @@ img {
 }
 
 .button-subscribe {
-    margin-left: auto;
+    margin-left: 0 auto;
 }
 
 .subscribe-svg {
@@ -1178,7 +1178,9 @@ img {
     .button-subscribe-text {
         text-align: center;
     }
-
+    .subscribe-input{
+        
+    }
     .nav-list{
         display: none;
     }
@@ -1191,6 +1193,10 @@ img {
             url(../images/Loho-Hero-Tablet.jpg);
         min-width: 768px;
         margin: 0 auto;
+    }
+
+    .hero-item-list{
+        width 100%
     }
     .svg-icon{
         display: none;

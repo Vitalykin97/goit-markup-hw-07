@@ -693,11 +693,13 @@ img {
 .futer-client {
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
 }
 
 .list-client {
-    width: calc((100% - 120px) / 6);
+    width: calc((100% - 24px) / 2);
     height: 88px;
+    flex-wrap: wrap;
 }
 
 .client-item {
@@ -1205,6 +1207,9 @@ img {
     }
     .goal-style{
         display: none;
+    }
+    .ul-list{
+        flex-direction: column;
     }
 }
 

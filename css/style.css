@@ -1179,11 +1179,12 @@ img {
     .button-subscribe-text {
         text-align: center;
     }
-    .subscribe-input{
-        
-    }
     .nav-list{
         display: none;
+    }
+    .subscribe-input{
+        width: 100%;
+        margin: 0 auto;
     }
     .address-style{
         display: none;

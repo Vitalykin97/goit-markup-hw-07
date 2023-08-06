@@ -1,7 +1,17 @@
 :root {
-    --background-color: #ffffff;
-    --color-button: #FFFFFF;
-    --background-button: #404BBF;
+    --color: #434455;
+    --first-color: #FFFFFF;
+    --light-blue-color: #4D5AE5;
+    --navy-color: #2E2F42;
+    --address-link-color: #434455;
+    --text-color: #434455;
+    --hover-color: #404BBF;
+    --second-color: #F4F4FD;
+    --border: #e7e9fc;
+    --footer-soc-hover: #31d0aa;
+    --customers-color: #8e8f99;
+    --label-color: #8e8f99;
+    --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 p,
@@ -164,10 +174,12 @@ ol {
     margin-bottom: 64px;
 }
 
-.section-style {
-    background-color: #2e2f42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-logo.jpg);
-    max-width: 1440px;
+.hero {
+    background-color: var(--navy-color);
+    padding-top: 112px;
+    padding-bottom: 112px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/logo-hero-mobile.jpg);
+    max-width: 428px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -211,14 +223,13 @@ ol {
 /* HERO */
 
 .hero-list {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
     color: #2E2F42;
     margin-bottom: 8px;
-
+    text-align: center;
 }
 
 .hero-item {
@@ -227,11 +238,6 @@ ol {
     letter-spacing: 0.02em;
     color: #434455;
     margin: auto;
-}
-
-.hero-item-list {
-    background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4)
 }
 
 .section-style-hero {
@@ -251,8 +257,14 @@ ol {
     overflow: hidden;
 }
 
+.hero-item-list{
+    width: calc();
+}
+
 .hero-item-lists {
-    gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 24px;
 }
 
 /* GOAL LIST */
@@ -1046,8 +1058,9 @@ img {
     transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.burger-btn:hover .burger-svg {
-    stroke: #404BBF;
+.burger-button:hover .burger-svg,
+.burger-button:hover .burger-svg {
+    stroke: var(--hover-color);
 }
 
 /* Mobile Menu */
@@ -1171,5 +1184,33 @@ img {
     }
     .address-style{
         display: none;
+    }
+    .hero{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/Loho-Hero-Tablet.jpg);
+        min-width: 768px;
+        margin: 0 auto;
+    }
+    .svg-icon{
+        display: none;
+    }
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Hero-logo-mobile-x2.jpg);
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/Hero-logo-tablet-x2.jpg);
     }
 }

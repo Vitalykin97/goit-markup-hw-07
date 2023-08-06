@@ -1203,6 +1203,9 @@ img {
     .svg-icon{
         display: none;
     }
+    .goal-style{
+        display: none;
+    }
 }
 
 @media (min-device-pixel-ratio: 2),

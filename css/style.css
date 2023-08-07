@@ -1157,7 +1157,7 @@ img {
 
 @media (min-width: 428px) {
     .container {
-        width: 100%;
+        width: 428px;
     }
     .footer-container {
         flex-direction: column;

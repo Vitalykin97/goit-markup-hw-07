@@ -1149,9 +1149,6 @@ img {
     padding-bottom: 48px;
 }
 
-.mob-menu{
-    display: none;
-}
 
 /* Adaptive for mobile */
 
@@ -1202,7 +1199,7 @@ img {
     .hero-item-list{
         width 100%
     }
-    .svg-icon{
+    .icon-list{
         display: none;
     }
     .goal-style{

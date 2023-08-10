@@ -1329,12 +1329,12 @@ img {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
             url(../images/Loho-Hero-Tablet.jpg);
-        min-width: 768px;
+        width: 100%;
         margin: 0 auto;
     }
 
     .hero-item-list {
-        width 100%
+        width: 100%
     }
 
     .icon-list {

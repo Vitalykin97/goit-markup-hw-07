@@ -693,9 +693,8 @@ img {
 }
 
 .list-client {
-    width: calc((100% - 24px) / 2);
+    width: 190px;
     height: 88px;
-    flex-wrap: wrap;
 }
 
 .client-item {
@@ -1334,7 +1333,7 @@ img {
     }
 
     .hero-item-list {
-        width: 100%
+        width: 100%;
     }
 
     .icon-list {
@@ -1349,6 +1348,28 @@ img {
         flex-direction: column;
     }
 }
+
+@media (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+    .list-client{
+        width: 168px;
+    }
+
+    .futer-logotype{
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+}
+
+
+@media (min-width: 1166px) {
+    .container{
+    max-width: 1166px;
+}
+}
+
 
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),

@@ -611,7 +611,7 @@ img {
 }
 
 .container {
-    width: 1158px;
+    width: 100%;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -1279,9 +1279,9 @@ img {
 
 /* Adaptive for mobile */
 
-@media (min-width: 320px) {
+@media (min-width: 428px) {
     .container {
-        width: 320px;
+        width: 428px;
     }
 
     .footer-container {

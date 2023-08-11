@@ -1373,12 +1373,15 @@ img {
         padding-top: 96px;
         padding-bottom: 96px;
     }
+    .burger-button{
+        display: none;
+    }
 }
 
 
-@media (min-width: 1166px) {
+@media (min-width: 1249px) {
     .container{
-    width: 100%;
+    width: 1249px;
     }
 
     .address-style{
@@ -1401,6 +1404,10 @@ img {
     .ul-list{
     padding: 24px;
     justify-content: center;
+    }
+
+    .burger-button{
+        display: none;
     }
 }
 

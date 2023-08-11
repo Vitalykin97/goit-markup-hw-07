@@ -696,8 +696,9 @@ img {
 
 .list-client {
     justify-content: center;
-    width: 190px;
-    height: 88px;
+        width: 190px;
+        height: 88px;
+
 }
 
 .client-item {
@@ -1286,7 +1287,7 @@ img {
 
 /* Adaptive for mobile */
 
-@media screen and (min-width: 320px; ) and (max-width: 428px) {
+@media screen and (min-width: 320px) and (max-width: 428px) {
     .container {
         width: 428px;
     }
@@ -1350,6 +1351,7 @@ img {
     .container {
         width: 768px;
     }
+
     .list-client{
         width: 168px;
     }
@@ -1357,7 +1359,10 @@ img {
     .nav-list{
         display: flex;
     }
-    
+
+    .hero-item-list {
+        width: calc((100% - 24px) / 2)
+    }
     .address-style{
         display: block;
     }
@@ -1381,6 +1386,7 @@ img {
     .nav-list{
         display: flex;
     }
+    
 }
 
 

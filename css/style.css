@@ -349,6 +349,7 @@ ol {
 .ul-list {
     gap: 24px;
     display: flex;
+    flex-direction: ;
 }
 
 .team-name {
@@ -625,7 +626,6 @@ img {
 .icon-list {
     display: flex;
     align-items: center;
-
     height: 112px;
     background-color: #f4f4fd;
     border-radius: 4px;
@@ -1286,10 +1286,10 @@ img {
 }
 
 /* Adaptive for mobile */
-
-@media screen and (min-width: 320px) and (max-width: 428px) {
+@media screen and (min-width: 428px) {
     .container {
         width: 428px;
+        padding: 0 16;
     }
 
     .footer-container {
@@ -1329,7 +1329,7 @@ img {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/Loho-Hero-Tablet.jpg);
+            url(../images/logo-hero-mobile.jpg);
         width: 100%;
         margin: 0 auto;
     }
@@ -1345,11 +1345,20 @@ img {
     .ul-list {
         flex-direction: column;
     }
+    .text-style{
+        font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    }
 }
 
 @media (min-width: 768px) {
     .container {
         width: 768px;
+        padding: 0 15;
     }
 
     .list-client{
@@ -1377,13 +1386,19 @@ img {
     .burger-button{
         display: none;
     }
-
+    .text-styleP{
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px; 
+        letter-spacing: 1.12px;}
 }
 
 
-@media (min-width: 1249px) {
+@media (min-width: 1158px) {
     .container{
-    width: 1249px;
+    width: 1158px;
+    padding: 0 15;
     }
 
     .address-style{
@@ -1411,7 +1426,13 @@ img {
     .burger-button{
         display: none;
     }
-
+    .text-style{
+        font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: 1.12px;
+    }
 }
 
 

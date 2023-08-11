@@ -734,6 +734,7 @@ img {
 }
 
 .footer-font {
+    justify-content: center;
     margin-right: 120px;
 }
 

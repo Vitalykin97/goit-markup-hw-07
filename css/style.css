@@ -744,6 +744,7 @@ img {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+    margin: 72px;
 }
 
 .social-media-list {
@@ -873,6 +874,7 @@ img {
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 16px;
+    padding: 16px;
 }
 
 .button-subscribe-email {

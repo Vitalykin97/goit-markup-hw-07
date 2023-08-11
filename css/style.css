@@ -119,7 +119,7 @@ ol {
 }
 
 .nav-list {
-    display: flex;
+    display: none;
     gap: 40px;
     margin: 0 auto;
     text-decoration: none;
@@ -138,7 +138,7 @@ ol {
 }
 
 .address-style {
-    display: flex;
+    display: none;
     gap: 40px;
 }
 
@@ -289,6 +289,7 @@ ol {
 
 .goal-style {
     padding-bottom: 120px;
+    display: none;
 }
 
 /* TEAM */
@@ -687,12 +688,14 @@ img {
 }
 
 .futer-client {
+    justify-content: center;
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
 }
 
 .list-client {
+    justify-content: center;
     width: 190px;
     height: 88px;
 }
@@ -1311,18 +1314,11 @@ img {
         text-align: center;
     }
 
-    .nav-list {
-        display: none;
-    }
-
     .subscribe-input {
         width: 100%;
         margin: 0 auto;
     }
 
-    .address-style {
-        display: none;
-    }
 
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -1340,10 +1336,6 @@ img {
         display: none;
     }
 
-    .goal-style {
-        display: none;
-    }
-
     .ul-list {
         flex-direction: column;
     }
@@ -1357,7 +1349,13 @@ img {
         width: 168px;
     }
 
+    .nav-list{
+        display: flex;
+    }
     
+    .address-style{
+        display: block;
+    }
 
     .futer-logotype{
         padding-top: 96px;

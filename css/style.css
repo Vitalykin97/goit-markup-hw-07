@@ -1361,8 +1361,10 @@ img {
     }
 
     .hero-item-list {
-        width: calc((100% - 24px) / 2)
+        width: calc((100% - 24px) / 2);
     }
+
+
     .address-style{
         display: block;
     }
@@ -1376,7 +1378,7 @@ img {
 
 @media (min-width: 1166px) {
     .container{
-    max-width: 1166px;
+    width: 100%;
     }
 
     .address-style{
@@ -1387,6 +1389,15 @@ img {
         display: flex;
     }
     
+    .goal-style{
+        display: flex;
+    }
+
+    .goal-item-list{
+        padding: 24px;
+        width: 100%;
+        justify-content: center;
+    }
 }
 
 

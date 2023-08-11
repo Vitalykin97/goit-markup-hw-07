@@ -178,7 +178,9 @@ ol {
     background-color: var(--navy-color);
     padding-top: 112px;
     padding-bottom: 112px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/logo-hero-mobile.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+    rgba(46, 47, 66, 0.7)), 
+    url(../images/logo-hero-mobile.jpg);
     max-width: 428px;
     background-repeat: no-repeat;
     background-position: center;
@@ -696,8 +698,8 @@ img {
 
 .list-client {
     justify-content: center;
-        width: 190px;
-        height: 88px;
+    width: 190px;
+    height: 88px;
 
 }
 
@@ -1345,13 +1347,14 @@ img {
     .ul-list {
         flex-direction: column;
     }
-    .text-style{
+
+    .text-style {
         font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 40px; 
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
     }
 }
 
@@ -1361,11 +1364,11 @@ img {
         padding: 0 16;
     }
 
-    .list-client{
+    .list-client {
         width: 168px;
     }
 
-    .nav-list{
+    .nav-list {
         display: flex;
     }
 
@@ -1374,82 +1377,96 @@ img {
     }
 
 
-    .address-style{
+    .address-style {
         display: block;
     }
 
-    .futer-logotype{
+    .futer-logotype {
         padding-top: 96px;
         padding-bottom: 96px;
     }
 
-    .burger-button{
+    .burger-button {
         display: none;
     }
-    .text-styleP{
+
+    .text-style {
         font-size: 56px;
         font-style: normal;
         font-weight: 700;
-        line-height: 60px; 
-        letter-spacing: 1.12px;}
+        line-height: 60px;
+        letter-spacing: 1.12px;
+    }
+
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/Loho-Hero-Tablet.jpg);
+        width: 728px;
+        margin: 0 auto;
+    }
 }
 
 
 @media (min-width: 1158px) {
-    .container{
-    width: 1158px;
-    padding: 0 15;
+    .container {
+        width: 1158px;
+        padding: 0 15;
     }
 
-    .address-style{
+    .address-style {
         display: flex;
     }
 
-    .nav-list{
-        display: flex;
-    }
-    
-    .goal-style{
+    .nav-list {
         display: flex;
     }
 
-    .goal-item-list{
+    .goal-style {
+        display: flex;
+    }
+
+    .goal-item-list {
         padding: 24px;
         justify-content: center;
     }
 
-    .ul-list{
-    padding: 24px;
-    justify-content: center;
+    .ul-list {
+        padding: 24px;
+        justify-content: center;
     }
 
-    .burger-button{
+    .burger-button {
         display: none;
     }
-    .text-style{
+
+    .text-style {
         font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px; 
-    letter-spacing: 1.12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 1.12px;
     }
 }
 
 
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Hero-logo-mobile-x2.jpg);
-    }
-}
 
 @media screen and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            url(../images/Hero-logo-tablet-x2.jpg);
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/Hero-logo-mobile-x2.jpg);
+        }
     }
-}
+
+    @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/Hero-logo-tablet-x2.jpg);
+        }
+    }

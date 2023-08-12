@@ -1458,6 +1458,11 @@ img {
 
     .icon-list{
         display: flex;
+        flex-wrap: wrap;
+        gap: 72px;
+        column-gap: 16px;
+        row-gap: 72px;
+        justify-content: center;
     }
 
     .hero-item-list{

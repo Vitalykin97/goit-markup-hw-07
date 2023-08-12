@@ -690,10 +690,12 @@ img {
 }
 
 .futer-client {
-    justify-content: center;
     display: flex;
-    gap: 24px;
     flex-wrap: wrap;
+    gap: 72px;
+    column-gap: 16px;
+    row-gap: 72px;
+    justify-content: center
 }
 
 .list-client {
@@ -1457,8 +1459,21 @@ img {
     .icon-list{
         display: flex;
     }
+
+    .hero-item-list{
+        flex-wrap: nowrap;
+    }
+
+    .futer-client{
+        column-gap: 24px;
+    }
 }
 
+@media screen and (min-width: 1158px) {
+    .futer-client{
+        flex-wrap: nowrap;
+    }
+}
 
 
 @media screen and (min-device-pixel-ratio: 2),

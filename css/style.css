@@ -1453,6 +1453,10 @@ img {
         line-height: 60px;
         letter-spacing: 1.12px;
     }
+
+    .icon-list{
+        display: flex;
+    }
 }
 
 

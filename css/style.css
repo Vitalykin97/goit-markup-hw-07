@@ -351,7 +351,7 @@ ol {
 .ul-list {
     gap: 24px;
     display: flex;
-    flex-direction: ;
+    flex-wrap: wrap;
 }
 
 .team-name {
@@ -626,7 +626,7 @@ img {
 
 
 .icon-list {
-    display: flex;
+    display: none;
     align-items: center;
     height: 112px;
     background-color: #f4f4fd;
@@ -698,7 +698,7 @@ img {
 
 .list-client {
     justify-content: center;
-    width: 190px;
+    width: calc((100% - 16px) / 2);
     height: 88px;
 
 }
@@ -1344,12 +1344,6 @@ img {
         display: none;
     }
 
-    .ul-list {
-        flex-direction: row;
-        flex-wrap: wrap;
-        display: flex;
-    }
-
     .text-style {
         font-size: 36px;
         font-style: normal;
@@ -1415,6 +1409,7 @@ img {
         align-content: center;
     }
 }
+
 
 
 @media (min-width: 1158px) {

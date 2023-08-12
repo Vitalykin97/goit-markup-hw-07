@@ -1291,7 +1291,7 @@ img {
 @media screen and (min-width: 428px) {
     .container {
         width: 428px;
-        padding: 0 16;
+        padding: 0 16px;
     }
 
     .footer-container {
@@ -1357,7 +1357,7 @@ img {
 @media (min-width: 768px) {
     .container {
         width: 768px;
-        padding: 0 16;
+        padding: 0 16px;
     }
 
     .list-client {
@@ -1415,7 +1415,7 @@ img {
 @media (min-width: 1158px) {
     .container {
         width: 1158px;
-        padding: 0 15;
+        padding: 0 15px;
 
     }
 

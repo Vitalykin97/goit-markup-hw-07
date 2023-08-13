@@ -1469,16 +1469,21 @@ img {
         flex-wrap: nowrap;
     }
 
-    .futer-client{
-        column-gap: 24px;
+    .list-client{
+        width: calc((100% - 16px) / 2);
+    }
+    .team-style{
+        width: 584px;
+    }
+    .costumers{
+        width: 584px;
+    }
+
+    .footer-container{
+        width: 584px;
     }
 }
 
-@media screen and (min-width: 1158px) {
-    .futer-client{
-        flex-wrap: nowrap;
-    }
-}
 
 
 @media screen and (min-device-pixel-ratio: 2),

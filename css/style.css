@@ -692,16 +692,16 @@ img {
 .futer-client {
     display: flex;
     flex-wrap: wrap;
-    gap: 72px;
     column-gap: 16px;
     row-gap: 72px;
     justify-content: center
 }
 
 .list-client {
-    justify-content: center;
-    width: calc((100% - 16px) / 2);
+    display: flex;
+    justify-content: space-between;
     height: 88px;
+    position: relative;
 
 }
 
@@ -1363,7 +1363,9 @@ img {
     }
 
     .list-client {
-        width: 168px;
+        gap: 24px;
+        row-gap: 72px;
+        justify-content: center;
     }
 
     .nav-list {
@@ -1371,7 +1373,7 @@ img {
     }
 
     .hero-item-list {
-        width: calc((100% - 24px) / 2);
+        width: calc((100% - 1 * 24px) / 2);
     }
 
 
@@ -1470,12 +1472,14 @@ img {
     }
 
     .list-client{
-        width: calc((100% - 16px) / 2);
+        height: 88px;
+        width: calc((100% - 5 * 16px) / 6);
+        position: relative;
     }
     .team-style{
         width: 584px;
     }
-    .costumers{
+    .costumers-style{
         width: 584px;
     }
 

@@ -1419,10 +1419,13 @@ img {
         width: 584px;
     }
     .costumers-style.container{
-        width: 768px;
+        width: 584px;
     }
 
     .footer-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
         width: 584px;
     }
 }

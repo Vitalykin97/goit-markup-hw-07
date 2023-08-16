@@ -1530,13 +1530,14 @@ img {
         row-gap: 72px;
         justify-content: center;
     }
+
     .costumers-style.container {
         width: 1158px;
     }
 
     .hero-item-list {
         flex-wrap: nowrap;
-        width: calc((100% * 3 - 24) / 4);
+        width: calc((100% - 3 * 24) / 4);
     }
     .hero-list{
         font-size: 20px;

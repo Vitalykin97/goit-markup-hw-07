@@ -1366,7 +1366,9 @@ img {
         width: 768px;
         padding: 0 16px;
     }
-
+    .web-studio{
+        display: flex;
+    }
     .list-client {
         gap: 24px;
         row-gap: 72px;
@@ -1474,15 +1476,15 @@ img {
         width: 1158px;
         padding: 0 15px;
     }
-    .web-studio{
-        display: flex;
-    }
+
+
     .address-style {
         display: flex;
     }
 
     .nav-list {
         display: flex;
+        flex-wrap: nowrap;
     }
 
     .goal-style {

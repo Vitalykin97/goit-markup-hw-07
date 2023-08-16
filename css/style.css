@@ -1482,6 +1482,9 @@ img {
         padding: 0 15px;
     }
 
+    .futer-client{
+        flex-wrap: nowrap;
+    }
 
     .address-style {
         display: flex;
@@ -1527,15 +1530,33 @@ img {
         row-gap: 72px;
         justify-content: center;
     }
+    .costumers-style.container {
+        width: 1158px;
+    }
 
     .hero-item-list {
         flex-wrap: nowrap;
+        width: calc((100% * 3 - 24) / 4);
     }
-
+    .hero-list{
+        font-size: 20px;
+        line-height: 24px; 
+        letter-spacing: 0.4px;
+        font-weight: 500;
+        text-align: left;
+    }
+    .hero-item{
+        font-size: 16px;
+        line-height: 24px; 
+        letter-spacing: 0.32px;
+        font-weight: 400;
+    }
+    
     .list-client {
         height: 88px;
-        width: calc((100% - 2 * 24px) / 6);
+        width: calc((100% - 5 * 24px) / 6);
         position: relative;
+        
     }
 
     .hero {

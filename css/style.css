@@ -1474,7 +1474,9 @@ img {
         width: 1158px;
         padding: 0 15px;
     }
-
+    .web-studio{
+        display: flex;
+    }
     .address-style {
         display: flex;
     }

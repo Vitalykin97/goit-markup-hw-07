@@ -1573,6 +1573,9 @@ img {
     .social-media-list{
         gap: 12px;
     }
+    .hero-item-lists{
+        flex-wrap: nowrap;
+    }
 }
 
 

@@ -1375,7 +1375,7 @@ img {
         gap: 24px;
         row-gap: 72px;
         justify-content: center;
-        width: calc((100% - 2 * 24px) / 2);
+        width: calc((100% - 2 * 24px) / 3);
     }
 
     .nav-list {
@@ -1383,6 +1383,7 @@ img {
     }
 
     .hero-item-list {
+        flex-wrap: nowrap;
         width: calc((100% - 1 * 24px) / 2);
     }
 
@@ -1436,7 +1437,7 @@ img {
         align-items: baseline;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 72px 24px;
+        gap: 0;
         width: 584px;
         position: relative;
     }
@@ -1448,11 +1449,12 @@ img {
     }
 
     .footer-font {
+        margin-right: 120px;
         text-align: left;
     }
 
     .social-icons {
-        gap: 16px;
+        margin-right: 80px;
     }
 
     .form-subscribe {
@@ -1537,8 +1539,9 @@ img {
 
     .hero-item-list {
         flex-wrap: nowrap;
-        width: calc((100% - 3 * 24) / 4);
+        width: calc((100% - 3 * 24px) / 4);
     }
+
     .hero-list{
         font-size: 20px;
         line-height: 24px; 
@@ -1566,6 +1569,9 @@ img {
             url(../images/hero-logo.jpg);
         max-width: 1158px;
         margin: 0 auto;
+    }
+    .social-media-list{
+        gap: 12px;
     }
 }
 

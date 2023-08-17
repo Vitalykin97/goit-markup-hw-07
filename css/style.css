@@ -245,7 +245,7 @@ ol {
 }
 
 .section-style-hero {
-    padding: 120px 0;
+    padding: 96px 0;
 }
 
 .visually-hidden {
@@ -613,6 +613,7 @@ img {
 .header-styles {
     display: flex;
     align-items: center;
+
 }
 
 .container {
@@ -1057,12 +1058,10 @@ img {
 /* Burger */
 
 .burger-btn {
-    border: none;
     width: 32px;
     height: 22px;
     padding: 0;
     display: block;
-    background-color: transparent;
 }
 
 .burger-svg {
@@ -1355,7 +1354,7 @@ img {
         font-size: 36px;
         font-style: normal;
         font-weight: 700;
-        line-height: 40px;
+        line-height: 40px; 
         letter-spacing: 0.72px;
         text-transform: capitalize;
     }
@@ -1575,6 +1574,9 @@ img {
     }
     .hero-item-lists{
         flex-wrap: nowrap;
+    }
+    .section-style-hero {
+        padding: 120px 0;
     }
 }
 

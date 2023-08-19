@@ -1479,7 +1479,7 @@ img {
 
 @media (min-width: 1158px) {
     .container {
-        width: 1158px;
+        width: 1440px;
         padding: 0 15px;
     }
 
@@ -1501,12 +1501,10 @@ img {
     }
 
     .goal-item-list {
-        padding: 24px;
         justify-content: center;
     }
 
     .ul-list {
-        padding: 24px;
         justify-content: center;
         flex-wrap: nowrap;
     }

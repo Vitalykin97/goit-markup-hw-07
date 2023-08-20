@@ -1428,7 +1428,7 @@ img {
         align-items: baseline;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 72px;
+        gap: 72px 24px;
         width: 558px;
     }
 

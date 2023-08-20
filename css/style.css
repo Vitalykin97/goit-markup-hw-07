@@ -1578,6 +1578,18 @@ img {
     .section-style-hero {
         padding: 120px 0;
     }
+
+    .footer-container {
+        gap: 0;
+    }
+    .footer-font {
+        margin-right: 120px;
+        text-align: left;
+    }
+    .social-icons{
+        margin-right: 80px;
+    }
+
 }
 
 

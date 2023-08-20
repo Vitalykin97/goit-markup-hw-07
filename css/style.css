@@ -1411,6 +1411,14 @@ img {
             url(../images/Loho-Hero-Tablet.jpg);
         margin: 0 auto;
     }
+    
+    .contact-link{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.48px;
+    padding: 12px;
+    }
 
     .ul-list {
         flex-direction: row;

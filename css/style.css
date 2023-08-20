@@ -701,10 +701,8 @@ img {
 
 .list-client {
     display: flex;
-    justify-content: space-between;
     height: 88px;
-    position: relative;
-
+    width: calc((100% - 24px) / 2);
 }
 
 .client-item {
@@ -1411,7 +1409,6 @@ img {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
             url(../images/Loho-Hero-Tablet.jpg);
-        max-width: 768px;
         margin: 0 auto;
     }
 
@@ -1565,7 +1562,6 @@ img {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
             url(../images/hero-logo.jpg);
-        max-width: 1140px;
         margin: 0 auto;
     }
 

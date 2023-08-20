@@ -1429,7 +1429,7 @@ img {
         flex-direction: row;
         flex-wrap: wrap;
         gap: 0;
-        width: 552px;
+        width: 558px;
         position: relative;
     }
 
@@ -1453,7 +1453,7 @@ img {
 
     .social-icons {
         margin-bottom: 72px;
-        margin-right: 80px;
+        margin-right: 0;
     }
 
     .form-subscribe {

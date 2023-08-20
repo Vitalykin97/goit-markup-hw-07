@@ -753,6 +753,7 @@ img {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 .social-media-list {
@@ -858,7 +859,7 @@ img {
 }
 
 .subscribe-input {
-    width: 264px;
+    width: 290px;
     height: 40px;
     border: 1px solid #ffffff;
     background-color: transparent;
@@ -1323,7 +1324,7 @@ img {
     }
 
     .subscribe-input {
-        width: 100%;
+        width: 398px;
         margin: 0 auto;
     }
 
@@ -1414,11 +1415,15 @@ img {
         display: flex;
         justify-content: center;
         align-content: center;
-        gap: 24px;
+        gap: 72px 24px;
     }
 
     .team-style {
         width: 552px;
+    }
+
+    .team-item-list{
+        width: calc((100% - 24px) / 2);
     }
 
     .costumers-style.container {
@@ -1452,7 +1457,7 @@ img {
     }
 
     .social-icons {
-        margin-bottom: 72px;
+        margin-bottom: 0;
         margin-right: 0;
     }
 
@@ -1591,9 +1596,6 @@ img {
     }
     .social-icons{
         margin-right: 80px;
-    }
-    .contact-link{
-        
     }
 }
 

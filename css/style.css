@@ -1354,7 +1354,7 @@ img {
         font-size: 36px;
         font-style: normal;
         font-weight: 700;
-        line-height: 40px; 
+        line-height: 40px;
         letter-spacing: 0.72px;
         text-transform: capitalize;
     }
@@ -1479,11 +1479,11 @@ img {
 
 @media (min-width: 1158px) {
     .container {
-        width: 1440px;
+        width: 1158px;
         padding: 0 15px;
     }
 
-    .futer-client{
+    .futer-client {
         flex-wrap: nowrap;
     }
 
@@ -1539,40 +1539,44 @@ img {
         width: calc((100% - 3 * 24px) / 4);
     }
 
-    .hero-list{
+    .hero-list {
         font-size: 20px;
-        line-height: 24px; 
+        line-height: 24px;
         letter-spacing: 0.4px;
         font-weight: 500;
         text-align: left;
     }
-    .hero-item{
+
+    .hero-item {
         font-size: 16px;
-        line-height: 24px; 
+        line-height: 24px;
         letter-spacing: 0.32px;
         font-weight: 400;
     }
-    
+
     .list-client {
         height: 88px;
         width: calc((100% - 5 * 24px) / 6);
         position: relative;
-        
+
     }
 
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
             url(../images/hero-logo.jpg);
-        max-width: 1158px;
+        max-width: 1140px;
         margin: 0 auto;
     }
-    .social-media-list{
+
+    .social-media-list {
         gap: 12px;
     }
-    .hero-item-lists{
+
+    .hero-item-lists {
         flex-wrap: nowrap;
     }
+
     .section-style-hero {
         padding: 120px 0;
     }

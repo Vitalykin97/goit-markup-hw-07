@@ -354,6 +354,7 @@ ol {
     gap: 24px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .team-name {

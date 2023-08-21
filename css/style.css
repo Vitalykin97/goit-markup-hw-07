@@ -609,6 +609,7 @@ img {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
+    padding: 22px 24px;
 }
 
 .header-styles {
@@ -1069,6 +1070,11 @@ img {
     transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.burger-button{
+    border: none;
+    background: transparent;
+}
+
 .burger-button:hover .burger-svg,
 .burger-button:hover .burger-svg {
     stroke: var(--hover-color);
@@ -1353,9 +1359,6 @@ img {
         letter-spacing: 0.72px;
         text-transform: capitalize;
     }
-    .header-styles{
-        padding: 22px 24px;
-    }
 }
 
 @media (min-width: 768px) {
@@ -1430,7 +1433,7 @@ img {
     }
 
     .team-style {
-        width: 552px;
+        width: 584px;
     }
 
     .team-item-list{
@@ -1438,7 +1441,7 @@ img {
     }
 
     .costumers-style.container {
-        width: 552px;
+        width: 584px;
     }
 
     .footer-container {
@@ -1446,7 +1449,7 @@ img {
         flex-direction: row;
         flex-wrap: wrap;
         gap: 72px 24px;
-        width: 558px;
+        width: 584px;
     }
 
     .social-media {
@@ -1506,6 +1509,13 @@ img {
     .address-style {
         display: flex;
     }
+
+    .contact-link{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        }
 
     .nav-list {
         display: flex;
@@ -1584,6 +1594,7 @@ img {
                 rgba(46, 47, 66, 0.7)),
             url(../images/hero-logo.jpg);
         margin: 0 auto;
+        padding: 180px;
     }
 
     .social-media-list {

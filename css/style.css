@@ -914,7 +914,6 @@ img {
 .modal {
     padding: 72px 24px 24px 24px;
     max-width: 408px;
-
 }
 
 .modal-text {
@@ -1072,7 +1071,7 @@ img {
     transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.burger-button{
+.burger-button {
     border: none;
     background: transparent;
 }
@@ -1410,7 +1409,7 @@ img {
         letter-spacing: 1.12px;
     }
 
-    .header-style{
+    .header-style {
         padding: 22px 24px;
     }
 
@@ -1420,13 +1419,13 @@ img {
             url(../images/Loho-Hero-Tablet.jpg);
         margin: 0 auto;
     }
-    
-    .contact-link{
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0.48px;
-    padding: 12px;
+
+    .contact-link {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0.48px;
+        padding: 12px;
     }
 
     .ul-list {
@@ -1442,7 +1441,7 @@ img {
         width: 584px;
     }
 
-    .team-item-list{
+    .team-item-list {
         width: calc((100% - 24px) / 2);
     }
 
@@ -1463,6 +1462,7 @@ img {
         margin-bottom: 16px;
         text-align: left;
     }
+
     .futer-client {
         display: flex;
         column-gap: 24px;
@@ -1489,9 +1489,11 @@ img {
         padding: 0;
         text-align: left;
     }
-    .hero-list{
+
+    .hero-list {
         text-align: left;
     }
+
     .subscribe-input {
         width: 264px;
         opacity: 0.6;
@@ -1518,12 +1520,12 @@ img {
         display: flex;
     }
 
-    .contact-link{
+    .contact-link {
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.32px;
-        }
+    }
 
     .nav-list {
         display: flex;
@@ -1620,11 +1622,13 @@ img {
     .footer-container {
         gap: 0;
     }
+
     .footer-font {
         margin-right: 120px;
         text-align: left;
     }
-    .social-icons{
+
+    .social-icons {
         margin-right: 80px;
     }
 }
